@@ -9,8 +9,7 @@
 import Foundation
 import UIKit
 
-class TripTableViewCell
-: UITableViewCell {
+class TripTableViewCell : UITableViewCell {
     @IBOutlet weak var logo: UIImageView!
     @IBOutlet weak var departureArrival: UILabel!
     @IBOutlet weak var price: UILabel!

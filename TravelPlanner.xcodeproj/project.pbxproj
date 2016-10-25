@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2620CCC91DBCA85E00F92FFD /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2620CCC81DBCA85E00F92FFD /* Trip.swift */; };
+		2620CCCE1DBCABF800F92FFD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2620CCCD1DBCABF800F92FFD /* HomeViewController.swift */; };
+		2620CCD11DBCAFB500F92FFD /* TripTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2620CCD01DBCAFB500F92FFD /* TripTableViewCell.swift */; };
+		2620CCD31DBCB12C00F92FFD /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2620CCD21DBCB12C00F92FFD /* Parser.swift */; };
+		264021341DBC9B90003A5DF1 /* RequestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264021331DBC9B90003A5DF1 /* RequestHelper.swift */; };
+		26ADE0CE1DBCE4C000F19D79 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26ADE0CA1DBCE48A00F19D79 /* ObjectMapper.framework */; };
+		26ADE0D51DBE739800F19D79 /* TripSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26ADE0D41DBE739800F19D79 /* TripSegmentedControl.swift */; };
 		26C967DA1DBC953B0029DC8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C967D91DBC953B0029DC8E /* AppDelegate.swift */; };
-		26C967DC1DBC953B0029DC8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C967DB1DBC953B0029DC8E /* ViewController.swift */; };
 		26C967DF1DBC953B0029DC8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C967DD1DBC953B0029DC8E /* Main.storyboard */; };
 		26C967E11DBC953B0029DC8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26C967E01DBC953B0029DC8E /* Assets.xcassets */; };
 		26C967E41DBC953B0029DC8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C967E21DBC953B0029DC8E /* LaunchScreen.storyboard */; };
+		26C9C2F21DBF7FB600BB389F /* WebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C9C2F11DBF7FB600BB389F /* WebImage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2620CCC81DBCA85E00F92FFD /* Trip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Trip.swift; path = Models/Trip.swift; sourceTree = "<group>"; };
+		2620CCCD1DBCABF800F92FFD /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ViewControllers/HomeViewController.swift; sourceTree = "<group>"; };
+		2620CCD01DBCAFB500F92FFD /* TripTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TripTableViewCell.swift; path = TableViewCells/TripTableViewCell.swift; sourceTree = "<group>"; };
+		2620CCD21DBCB12C00F92FFD /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Helpers/Parser.swift; sourceTree = "<group>"; };
+		264021331DBC9B90003A5DF1 /* RequestHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RequestHelper.swift; path = Requests/RequestHelper.swift; sourceTree = "<group>"; };
+		26ADE0CA1DBCE48A00F19D79 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = ../Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
+		26ADE0D41DBE739800F19D79 /* TripSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TripSegmentedControl.swift; path = UI/TripSegmentedControl.swift; sourceTree = "<group>"; };
 		26C967D61DBC953B0029DC8E /* TravelPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26C967D91DBC953B0029DC8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		26C967DB1DBC953B0029DC8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		26C967DE1DBC953B0029DC8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		26C967E01DBC953B0029DC8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26C967E31DBC953B0029DC8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26C967E51DBC953B0029DC8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26C9C2F11DBF7FB600BB389F /* WebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebImage.framework; path = Carthage/Build/iOS/WebImage.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26ADE0CE1DBCE4C000F19D79 /* ObjectMapper.framework in Frameworks */,
+				26C9C2F21DBF7FB600BB389F /* WebImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2620CCC71DBCA7FD00F92FFD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2620CCC81DBCA85E00F92FFD /* Trip.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		2620CCCA1DBCA98200F92FFD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2620CCD21DBCB12C00F92FFD /* Parser.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		2620CCCF1DBCAF9C00F92FFD /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				2620CCD01DBCAFB500F92FFD /* TripTableViewCell.swift */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
+		264021321DBC9B7D003A5DF1 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				264021331DBC9B90003A5DF1 /* RequestHelper.swift */,
+			);
+			name = Requests;
+			sourceTree = "<group>";
+		};
+		26ADE0D61DBE739D00F19D79 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				26ADE0D41DBE739800F19D79 /* TripSegmentedControl.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
 		26C967CD1DBC953A0029DC8E = {
 			isa = PBXGroup;
 			children = (
 				26C967D81DBC953B0029DC8E /* TravelPlanner */,
 				26C967D71DBC953B0029DC8E /* Products */,
+				26C9C2F01DBF7FB600BB389F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +111,36 @@
 		26C967D81DBC953B0029DC8E /* TravelPlanner */ = {
 			isa = PBXGroup;
 			children = (
+				26C9C2EF1DBF7F8C00BB389F /* Frameworks */,
+				26ADE0D61DBE739D00F19D79 /* UI */,
+				2620CCCF1DBCAF9C00F92FFD /* TableViewCells */,
+				2620CCCA1DBCA98200F92FFD /* Helpers */,
+				2620CCC71DBCA7FD00F92FFD /* Models */,
+				264021321DBC9B7D003A5DF1 /* Requests */,
 				26C967D91DBC953B0029DC8E /* AppDelegate.swift */,
-				26C967DB1DBC953B0029DC8E /* ViewController.swift */,
+				2620CCCD1DBCABF800F92FFD /* HomeViewController.swift */,
 				26C967DD1DBC953B0029DC8E /* Main.storyboard */,
 				26C967E01DBC953B0029DC8E /* Assets.xcassets */,
 				26C967E21DBC953B0029DC8E /* LaunchScreen.storyboard */,
 				26C967E51DBC953B0029DC8E /* Info.plist */,
 			);
 			path = TravelPlanner;
+			sourceTree = "<group>";
+		};
+		26C9C2EF1DBF7F8C00BB389F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26ADE0CA1DBCE48A00F19D79 /* ObjectMapper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26C9C2F01DBF7FB600BB389F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26C9C2F11DBF7FB600BB389F /* WebImage.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +153,7 @@
 				26C967D21DBC953A0029DC8E /* Sources */,
 				26C967D31DBC953A0029DC8E /* Frameworks */,
 				26C967D41DBC953A0029DC8E /* Resources */,
+				26ADE0CF1DBCE4C500F19D79 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -131,13 +211,36 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26ADE0CF1DBCE4C500F19D79 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/ObjectMapper.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/WebImage.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		26C967D21DBC953A0029DC8E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26C967DC1DBC953B0029DC8E /* ViewController.swift in Sources */,
+				2620CCCE1DBCABF800F92FFD /* HomeViewController.swift in Sources */,
+				264021341DBC9B90003A5DF1 /* RequestHelper.swift in Sources */,
+				2620CCC91DBCA85E00F92FFD /* Trip.swift in Sources */,
 				26C967DA1DBC953B0029DC8E /* AppDelegate.swift in Sources */,
+				26ADE0D51DBE739800F19D79 /* TripSegmentedControl.swift in Sources */,
+				2620CCD11DBCAFB500F92FFD /* TripTableViewCell.swift in Sources */,
+				2620CCD31DBCB12C00F92FFD /* Parser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +361,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TravelPlanner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adriana.TravelPlanner;
@@ -270,6 +377,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TravelPlanner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adriana.TravelPlanner;
@@ -297,6 +408,7 @@
 				26C967EA1DBC953B0029DC8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

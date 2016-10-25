@@ -7,7 +7,9 @@
 //
 
 import Foundation
-class TransportationMethod{
+import ObjectMapper
+
+class Trip : Mappable{
     private let logoSize = "63"
     
     var providerLogo : String?{
@@ -16,13 +18,22 @@ class TransportationMethod{
         }
     }
     
-    var price : String?{
-        didSet{
-            price = "€ " + price
-        }
-    }
+    var price : Any?
     var departure : String?
     var arrival : String?
     var numberOfStops : Int?
+    
+    required init?(map: Map) {
+        
+    }
+    
+    // Mappable
+    func mapping(map: Map) {
+        providerLogo    <- map["provider_logo"]
+        price         <- map["price_in_euros"]
+        departure      <- map["departure_time"]
+        arrival       <- map["arrival_time"]
+        numberOfStops  <- map["number_of_stops"]
+    }
     
 }

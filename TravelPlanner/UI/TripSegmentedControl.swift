@@ -7,3 +7,14 @@
 //
 
 import Foundation
+import UIKit
+
+class TripSegmentedControl: UISegmentedControl {
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        
+        self.setBackgroundImage(UIImage(), for: .normal, barMetrics: .default)
+        self.setTitleTextAttributes([NSForegroundColorAttributeName : UIColor.white], for: .normal)
+    }
+}
